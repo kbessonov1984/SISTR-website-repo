@@ -1,0 +1,144 @@
+2020-12-21 16:05:50,522 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-12-21 16:05:50,536 INFO supervisord started with pid 39665
+2020-12-21 16:05:51,511 INFO spawned: 'munge' with pid 39666
+2020-12-21 16:05:51,516 INFO spawned: 'slurmctld' with pid 39667
+2020-12-21 16:05:51,520 INFO spawned: 'slurmd' with pid 39671
+2020-12-21 16:05:51,523 INFO spawned: 'sshd' with pid 39672
+2020-12-21 16:05:51,924 INFO exited: slurmd (exit status 1; not expected)
+2020-12-21 16:05:51,930 INFO gave up: slurmd entered FATAL state, too many start retries too quickly
+2020-12-21 16:05:51,935 INFO exited: slurmctld (exit status 1; not expected)
+2020-12-21 16:05:52,942 INFO success: munge entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:05:52,943 INFO gave up: slurmctld entered FATAL state, too many start retries too quickly
+2020-12-21 16:05:52,944 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:06:31,046 WARN received SIGTERM indicating exit request
+2020-12-21 16:06:31,049 INFO waiting for munge, sshd to die
+2020-12-21 16:06:31,052 INFO stopped: sshd (exit status 0)
+2020-12-21 16:06:33,068 INFO stopped: munge (exit status 0)
+2020-12-21 16:06:36,006 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-12-21 16:06:36,014 INFO supervisord started with pid 39678
+2020-12-21 16:06:37,025 INFO spawned: 'munge' with pid 39679
+2020-12-21 16:06:37,034 INFO spawned: 'slurmctld' with pid 39680
+2020-12-21 16:06:37,040 INFO spawned: 'slurmd' with pid 39681
+2020-12-21 16:06:37,045 INFO spawned: 'sshd' with pid 39685
+2020-12-21 16:06:37,404 INFO exited: slurmd (exit status 1; not expected)
+2020-12-21 16:06:37,409 INFO gave up: slurmd entered FATAL state, too many start retries too quickly
+2020-12-21 16:06:37,415 INFO exited: slurmctld (exit status 1; not expected)
+2020-12-21 16:06:38,421 INFO success: munge entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:06:38,424 INFO gave up: slurmctld entered FATAL state, too many start retries too quickly
+2020-12-21 16:06:38,427 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:06:44,459 WARN received SIGINT indicating exit request
+2020-12-21 16:06:44,464 INFO waiting for munge, sshd to die
+2020-12-21 16:06:44,469 INFO stopped: sshd (exit status 0)
+2020-12-21 16:06:46,489 INFO stopped: munge (exit status 0)
+2020-12-21 16:08:12,746 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-12-21 16:08:12,759 INFO supervisord started with pid 39698
+2020-12-21 16:08:13,765 INFO spawned: 'munge' with pid 39699
+2020-12-21 16:08:13,776 INFO spawned: 'slurmctld' with pid 39700
+2020-12-21 16:08:13,780 INFO spawned: 'slurmd' with pid 39704
+2020-12-21 16:08:13,784 INFO spawned: 'sshd' with pid 39705
+2020-12-21 16:08:15,185 INFO success: munge entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:08:15,188 INFO success: slurmctld entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:08:15,191 INFO success: slurmd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:08:15,194 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:08:18,259 WARN received SIGINT indicating exit request
+2020-12-21 16:08:18,268 INFO waiting for munge, slurmctld, slurmd, sshd to die
+2020-12-21 16:08:18,272 INFO stopped: sshd (exit status 0)
+2020-12-21 16:08:18,276 INFO stopped: slurmd (exit status 0)
+2020-12-21 16:08:18,432 INFO stopped: slurmctld (exit status 0)
+2020-12-21 16:08:18,443 INFO stopped: munge (exit status 0)
+2020-12-21 16:08:23,822 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-12-21 16:08:23,836 INFO supervisord started with pid 39715
+2020-12-21 16:08:24,843 INFO spawned: 'munge' with pid 39716
+2020-12-21 16:08:24,859 INFO spawned: 'slurmctld' with pid 39717
+2020-12-21 16:08:24,863 INFO spawned: 'slurmd' with pid 39721
+2020-12-21 16:08:24,866 INFO spawned: 'sshd' with pid 39722
+2020-12-21 16:08:26,046 INFO success: munge entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:08:26,050 INFO success: slurmctld entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:08:26,054 INFO success: slurmd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-21 16:08:26,058 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-12-22 14:09:48,491 WARN received SIGTERM indicating exit request
+2020-12-22 14:09:48,535 INFO waiting for munge, slurmctld, slurmd, sshd to die
+2020-12-22 14:09:49,594 INFO stopped: sshd (exit status 0)
+2020-12-22 14:09:49,749 INFO stopped: slurmd (exit status 0)
+2020-12-22 14:09:49,965 INFO stopped: slurmctld (exit status 0)
+2020-12-22 14:09:49,993 INFO stopped: munge (exit status 0)
+2021-01-02 14:54:55,982 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-01-02 14:54:55,992 INFO supervisord started with pid 11943
+2021-01-02 14:54:56,997 INFO spawned: 'munge' with pid 11944
+2021-01-02 14:54:57,000 INFO spawned: 'slurmctld' with pid 11945
+2021-01-02 14:54:57,005 INFO spawned: 'slurmd' with pid 11946
+2021-01-02 14:54:57,012 INFO spawned: 'sshd' with pid 11950
+2021-01-02 14:54:58,403 INFO success: munge entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:54:58,406 INFO success: slurmctld entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:54:58,407 INFO success: slurmd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:54:58,408 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:55:29,749 WARN received SIGTERM indicating exit request
+2021-01-02 14:55:29,754 INFO waiting for munge, slurmctld, slurmd, sshd to die
+2021-01-02 14:55:29,756 INFO stopped: sshd (exit status 0)
+2021-01-02 14:55:29,758 INFO stopped: slurmd (exit status 0)
+2021-01-02 14:55:29,817 INFO stopped: slurmctld (exit status 0)
+2021-01-02 14:55:29,821 INFO stopped: munge (exit status 0)
+2021-01-02 14:58:08,908 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-01-02 14:58:08,918 INFO supervisord started with pid 11979
+2021-01-02 14:58:09,924 INFO spawned: 'munge' with pid 11980
+2021-01-02 14:58:09,929 INFO spawned: 'slurmctld' with pid 11981
+2021-01-02 14:58:09,932 INFO spawned: 'slurmd' with pid 11982
+2021-01-02 14:58:09,936 INFO spawned: 'sshd' with pid 11986
+2021-01-02 14:58:11,318 INFO success: munge entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:11,320 INFO success: slurmctld entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:11,322 INFO success: slurmd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:11,324 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:11,325 INFO exited: slurmctld (exit status 1; expected)
+2021-01-02 14:58:27,363 WARN received SIGTERM indicating exit request
+2021-01-02 14:58:27,367 INFO waiting for munge, slurmd, sshd to die
+2021-01-02 14:58:27,370 INFO stopped: sshd (exit status 0)
+2021-01-02 14:58:29,371 WARN killing 'slurmd' (11982) with SIGKILL
+2021-01-02 14:58:29,375 INFO stopped: slurmd (terminated by SIGKILL)
+2021-01-02 14:58:30,377 INFO waiting for munge to die
+2021-01-02 14:58:30,379 INFO stopped: munge (exit status 0)
+2021-01-02 14:58:30,451 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-01-02 14:58:30,462 INFO supervisord started with pid 11991
+2021-01-02 14:58:31,467 INFO spawned: 'munge' with pid 11992
+2021-01-02 14:58:31,473 INFO spawned: 'slurmctld' with pid 11993
+2021-01-02 14:58:31,477 INFO spawned: 'slurmd' with pid 11994
+2021-01-02 14:58:31,483 INFO spawned: 'sshd' with pid 11998
+2021-01-02 14:58:32,861 INFO success: munge entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:32,864 INFO success: slurmctld entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:32,866 INFO success: slurmd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:32,867 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:32,868 INFO exited: slurmctld (exit status 1; expected)
+2021-01-02 14:58:38,832 WARN received SIGINT indicating exit request
+2021-01-02 14:58:38,841 INFO waiting for munge, slurmd, sshd to die
+2021-01-02 14:58:38,843 INFO stopped: sshd (exit status 0)
+2021-01-02 14:58:40,834 WARN killing 'slurmd' (11994) with SIGKILL
+2021-01-02 14:58:40,838 INFO stopped: slurmd (terminated by SIGKILL)
+2021-01-02 14:58:41,848 INFO waiting for munge to die
+2021-01-02 14:58:41,850 INFO stopped: munge (exit status 0)
+2021-01-02 14:58:46,716 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-01-02 14:58:46,728 INFO supervisord started with pid 12001
+2021-01-02 14:58:47,735 INFO spawned: 'munge' with pid 12002
+2021-01-02 14:58:47,741 INFO spawned: 'slurmctld' with pid 12003
+2021-01-02 14:58:47,744 INFO spawned: 'slurmd' with pid 12004
+2021-01-02 14:58:47,748 INFO spawned: 'sshd' with pid 12008
+2021-01-02 14:58:48,116 INFO exited: slurmctld (exit status 1; not expected)
+2021-01-02 14:58:48,118 INFO gave up: slurmctld entered FATAL state, too many start retries too quickly
+2021-01-02 14:58:49,117 INFO success: munge entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:49,119 INFO success: slurmd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:58:49,121 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 14:59:15,154 WARN received SIGTERM indicating exit request
+2021-01-02 14:59:15,157 INFO waiting for munge, slurmd, sshd to die
+2021-01-02 14:59:15,159 INFO stopped: sshd (exit status 0)
+2021-01-02 14:59:17,160 WARN killing 'slurmd' (12004) with SIGKILL
+2021-01-02 14:59:17,202 INFO stopped: slurmd (terminated by SIGKILL)
+2021-01-02 14:59:18,209 INFO waiting for munge to die
+2021-01-02 14:59:18,212 INFO stopped: munge (exit status 0)
+2021-01-02 15:03:58,928 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-01-02 15:03:58,937 INFO supervisord started with pid 12037
+2021-01-02 15:03:59,943 INFO spawned: 'munge' with pid 12038
+2021-01-02 15:03:59,951 INFO spawned: 'slurmctld' with pid 12042
+2021-01-02 15:03:59,954 INFO spawned: 'slurmd' with pid 12043
+2021-01-02 15:03:59,959 INFO spawned: 'sshd' with pid 12044
+2021-01-02 15:04:01,154 INFO success: munge entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 15:04:01,156 INFO success: slurmctld entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 15:04:01,158 INFO success: slurmd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-01-02 15:04:01,160 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

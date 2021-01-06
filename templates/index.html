@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+       <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+       <link rel="stylesheet" href="{{ url_for('static', filename='styles/dropzone.css') }}">
+       <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <title>SISTR: Salmonella In Silico Typing Resource - Home</title>
+    <script src="{{ url_for('static', filename='js/dropzone.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+	<script type="application/javascript">
+    $(function() {
+    $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+      function(json) {
+         console.log(json.ip)
+         $('#cip').val(json.ip);
+      }
+    );
+  });
+</script>
+
+
+
+    <div class="header">
+    <p>
+        <a href="/">HOME</a> |
+        <a href="/results">RESULTS</a> |
+        <a href="/queue">QUEUE</a> |
+        <a href="/history">HISTORY</a>
+    </p>
+    </div>
+
+
+    </head>
+
+    <body>
+
+    <h1 class="centered">Upload Genome Files</h1>
+    <form action = "{{ url_for('upload') }}" class="dropzone"></form>
+
+    <div class="centered">
+        <input type="checkbox" id="emailcheckbox" onclick="ShowHideFunction()" value="true"/>
+        <label for="emailcheckbox">Send email reminder?</label>
+    </div>
+
+
+    <form method="post" class="centered" id="submit_button">
+        <div id="emailinputform" style="display: none;">
+            <input type="text" name="email" size="50" placeholder="Enter your email here"/>
+        </div>
+        <p><input type="submit" name="submit_genomes" value="Submit"></p>
+        <input type="hidden" id="cip" name="ip", value="">
+    </form>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+     {%if messages%}
+        <div class="centered">
+        {%for category, message in messages%}
+          {%if category == "error" %}
+         	<p style="color:red">{{message}}</p>
+          {%elif category == "info"%}
+            <p style="color:green">{{message}}</p>
+          {%else%}  
+            <p style="color:black">{{message}}</p>
+          {%endif%}
+        {%endfor%}
+        </div>
+     {%endif%}
+{%endwith%}
+     </body>
+
+</html>
+
+ <!--form method="POST" enctype="multipart/form-data">
+      <p><input type="file" name=file accept=".fasta,.fa">
+        <input type="submit" name="upload" value="Upload"></p>
+      <p><button onclick="upload('{{request.url}}');" name="submit2sistr" value="Submit">Submit</button></p>
+    </form-->
